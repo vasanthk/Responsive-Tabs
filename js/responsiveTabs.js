@@ -41,7 +41,7 @@
       if (skip.indexOf(index) === -1) {
         tab.addEventListener('click', function (e) {
           e.preventDefault();
-          self.show(index);
+          self._show(index);
         });
       }
     });
